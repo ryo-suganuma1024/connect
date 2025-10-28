@@ -10,4 +10,5 @@ export class EntityId<EntityType extends string> {
         const uuid = crypto.randomUUID()
         return new EntityId<EntityType>(uuid)
     }
+
 }
